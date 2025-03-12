@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgb(52, 43, 63);
+  border-radius: 7px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.name,
+.number {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+.button:hover,
+.button:focus {
+  background-color: #ebd7d7;
+}
